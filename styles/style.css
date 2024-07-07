@@ -11,10 +11,44 @@
 /* nave style */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 200px ;
+    
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    padding: 18px 34px ;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+
 }
 .nav-title{
     font-weight: bolder;
     font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin: 39px;
+    
+
+  
+}
+nav ul{ 
+    display: flex;
+    align-items: center;
+   
+    
+}
+.dark-2{
+    color: #474747;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
 /* shared style*/
 .text-primary{
